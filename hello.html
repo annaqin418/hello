@@ -3,6 +3,10 @@
     <head>
         <title>cool title</title> <!-- shows up on tab -->
         <link rel="stylesheet" href="hello.css">
+        <meta name="keywords" content="fun"> <!--keywords for search engines-->
+        <meta name="description" content="A thing to play with.">
+        <meta name="author" content="who am i">
+        <meta http-equiv="refresh" content="120"> <!-- refresh webpage 120s-->      
     </head>
     <body>
         <h1> header 1</h1>
@@ -15,9 +19,9 @@
         <p><a href="http://www.lalalalalalalalalalalalalalalalalala.com/">a link.</a></p>
         
         list title
-        <ul class="class">
+        <ul class="className">
             unordered list
-            <li>list 1</li>
+            <li><span>list 1 </span></li>
             <li>list 2</li>
         </ul>
         <ol>
@@ -30,17 +34,23 @@
         
         <p>Hello, world</br> <!--for no extra space after paragraph -->
             more testing with paragraphs </p>
-        <img src="http://i.imgur.com/B9q0A.gif" alt="I could have danced all night" />
+        <img src="http://i.imgur.com/B9q0A.gif" alt="I could have danced all night" width=500/>
+        <!--style="property: value; property:value" for psuedo css-->
+
+        <img src="https://78.media.tumblr.com/cbb4ffea813887c56b7914068bf45ac9/tumblr_p8y3fbx5iF1tw3b6wo2_400.gif" style="border:5px double black" />
 
         <table border="1">
             <tr>
                 <th colspan="2">table title</th>
             </tr>
             <tr>
-                <td>cats</td>
+                <td style="color: rgb(255,0,0)">cats</td>
                 <td>dogs</td>
             </tr>
         </table>
+
+        <p style="text-align: center; font-weight: italic">This text is magnificent.</p>
+        <p style="font-family: Arial; font-style: oblique">This text is magnificent.</p>
 
         <footer>footer</footer>
     </body>
